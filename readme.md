@@ -110,6 +110,8 @@ Carsor の AI Assistant チャット画面でタスクにしたがって実装�
 
 ## 作成された仕様書およびソースコード、プロンプトの履歴
 
+下記フォルダ構成を参照。プロンプトの履歴は[こちら](./cursor_.md)。
+
 ```
 D:\SOURCE\EXPERIMENTSPECKIT
 |   cursor_.md          プロンプトとAI Assistantとのチャット
