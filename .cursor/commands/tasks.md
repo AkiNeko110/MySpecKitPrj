@@ -57,6 +57,8 @@ $ARGUMENTS
    - Dependency notes
    - Parallel execution guidance
 
+8. Verify tasks.md contains properly encoded Japanese text without character corruption. If corrupted characters are detected, rewrite the file.
+
 Context for task generation: $ARGUMENTS
 
 The tasks.md should be immediately executable - each task must be specific enough that an LLM can complete it without additional context.

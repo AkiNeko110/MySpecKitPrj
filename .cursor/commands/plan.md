@@ -36,6 +36,7 @@ Given the implementation details provided as an argument, do this:
 5. Verify execution completed:
    - Check Progress Tracking shows all phases complete
    - Ensure all required artifacts were generated
+   - Verify all required artifacts contain properly encoded Japanese text without character corruption. If corrupted characters are detected, rewrite the file.
    - Confirm no ERROR states in execution
 
 6. Report results with branch name, file paths, and generated artifacts.
