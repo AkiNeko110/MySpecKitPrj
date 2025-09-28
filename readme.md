@@ -1,4 +1,8 @@
-# Speckit環境構築から実装までのメモ
+# SpecKit環境構築から実装までのメモ
+
+SpecKitを使ったAIによる仕様駆動型開発のお試しを行った際のメモです。
+今回は時間がなかったのでプロンプトもWebからの流用でAI Assistantとチャット上で揉むというのが出来なかったです。チャットで仕様についてプロンプトで指示するとドキュメント作成（markdown）から実装までAI Assistantがやってくれました。
+AWS KIROを触ったことがないので比較ではないですが、KIROだともっとチャットで相談しながら実装できたりするのだろうか。
 
 ## Cursorインストール
 [公式](https://cursor.com/ja)より、OSに合わせたインストーラをダウンロードしてセットアップする。
@@ -109,6 +113,8 @@ Carsor の AI Assistant チャット画面でタスクにしたがって実装�
 ![game_over](./mdImages/game_over.png)
 
 ## 作成された仕様書およびソースコード、プロンプトの履歴
+
+下記フォルダ構成を参照。プロンプトの履歴は[こちら](./cursor_.md)。
 
 ```
 D:\SOURCE\EXPERIMENTSPECKIT
