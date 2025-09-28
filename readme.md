@@ -85,6 +85,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 Carsor の AI Assistant チャット画面へ仕様を記載していきます。
 先頭には```/specify```をつけて仕様の内容であるというコマンドを送ります。
+今回は仕様のプロンプトを考える時間がなかったため、[こちら](https://zenn.dev/n_san/articles/e1fcdd79d1af32)の仕様プロンプト例を使わせていただいた。
 
 ## 計画を立てる（/plan）
 
