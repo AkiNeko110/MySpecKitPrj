@@ -94,12 +94,12 @@ Carsor の AI Assistant チャット画面へ仕様を記載していきます�
 ## 計画を立てる（/plan）
 
 Carsor の AI Assistant チャット画面へ計画を記載していきます。
-先頭には```/plan```をつけて軽なくの内容であるというコマンドを送ります。
+先頭には```/plan```をつけて計画の内容であるというコマンドを送ります。
 
 ## タスクに分解する（/tasks）
 
 Carsor の AI Assistant チャット画面へタスクを記載していきます。
-先頭には```/tasks```をつけて軽なくの内容であるというコマンドを送ります。
+先頭には```/tasks```をつけてタスクの内容であるというコマンドを送ります。
 
 ## 実装する
 
@@ -117,18 +117,17 @@ Carsor の AI Assistant チャット画面でタスクにしたがって実装�
 下記フォルダ構成を参照。プロンプトの履歴は[こちら](./cursor_.md)。
 
 ```
-D:\SOURCE\EXPERIMENTSPECKIT
-|   cursor_.md          プロンプトとAI Assistantとのチャット
-|   Readme.md           本ファイル
+MySpecKitPrj
+|   babel.config.cjs
+|   cursor_.md        プロンプトとAI Assistantとのチャット
+|   index.html        ゲーム起動用のindexファイル
+|   plan.md           実装計画ファイル
+|   readme.md         本ファイル
+|   spec.md           仕様ファイル
+|   tasks.md          タスクファイル
 |   
-+---mdImages
-\---MySpecKitPrj
-    |   index.html      ゲーム起動用のindexファイル
-    |   plan.md         実装計画ファイル
-    |   spec.md         仕様ファイル
-    |   tasks.md        タスクファイル
-    |   
-    +---.cursor
-    +---.specify
-    \---src             実装ソースコード
++---.cursor
++---.specify
++---mdImages          マークダウン用画像格納Dir
+\---src               実装ソースコード
 ```
